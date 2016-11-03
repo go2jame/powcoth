@@ -5,7 +5,7 @@
 
 body{
 	font-family: 'CSChatThaiUI';
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.6;
 	/*margin-top: 74px;*/
 	margin-top: 104px;
@@ -21,7 +21,8 @@ a:hover{
 
 /* MENU */
 .menu{
-	background: #ffffff
+	background: #ffffff;
+	box-shadow: 1px 0px 10px #656565;
 }
 .main-menu{
 	margin: 30px 0;
@@ -131,9 +132,40 @@ a:hover{
   width: 250px;
   margin: 15px;
   border: 5px solid #ffffff;
+  overflow: hidden;
 }
 .hover-border:hover{
 	border: 5px solid #0053ff;
+}
+#reference .hover-border{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	position: relative;
+}
+.reference1{	background: url("../img/reference1.png") center center/100% 100% no-repeat; }
+.reference2{	background: url("../img/reference2.png") center center/100% 100% no-repeat; }
+.reference3{	background: url("../img/reference3.png") center center/100% 100% no-repeat; }
+
+#reference .hover-border:hover{
+	width: 100%
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}
+#reference .hover-border:hover .caption{
+	opacity: 1;
+}
+#reference .hover-border .caption{
+
+	opacity: 0;
+  top: 50%;
+  color: white;
+  position: absolute;
+  background-color: rgba(37, 24, 24, 0.35);
+
+}
+#contactus .address{
+	padding: 40px 0;
 }
 
 
@@ -179,4 +211,5 @@ border: 5px solid #ffffff;
 }
 .footer-social-link a img{
 	margin:10px;
+	width: 32px;
 }
