@@ -18,7 +18,10 @@ $(window).scroll(function () {
   });
 
 $('.main-menu a,#mobile-menu a').click(function(event) {
+var page = window.location.pathname;
+if( page == '/' || page == '/index.html'){
     event.preventDefault();
+}
     var link = this;
     $.smoothScroll({
       scrollTarget: link.hash
@@ -26,6 +29,7 @@ $('.main-menu a,#mobile-menu a').click(function(event) {
     window.location.hash
     window.history.pushState("string", "Title",window.location.pathname+ window.location.search+link.hash);
     //console.log(window.location.pathname+ window.location.search+link.hash);
+
 });
 
 $('#mobile-menu').slicknav({
