@@ -251,8 +251,8 @@ border: 5px solid #ffffff;
 }
 
 /* PAGE */
-.page{
-	
+.page h2{
+	padding-top: 55px;
 }
 .page img{
 	max-width: 100%;
