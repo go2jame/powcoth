@@ -199,6 +199,8 @@ margin-bottom: 30px;
 }
 #contactus .address{
 	padding: 40px 0;
+	background: #ffffff;
+  padding: 20px;
 }
 .home-service dt:hover{
 	color:#fdb813;
@@ -214,6 +216,31 @@ margin-bottom: 30px;
 }
 .googlemaps{
 	display: none;
+}
+
+.product-tech{
+	background: rgba(255, 255, 255, 0.9);
+	padding:10px 20px;
+	margin-bottom: 15px;
+	display: block;
+}
+.slide-product-tech{
+	background: white;
+	padding:20px;
+	margin:20px 0;
+	min-height: 500px;
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.recruitment li{
+	list-style: none;
+	background-color: rgba(232, 232, 232, 0.93);
+	padding: 10px;
+  font-size: 16px;margin:5px auto;
+  border-left: 2px solid #5dabc3;
 }
 /* FOOTER */
 .footer{
@@ -238,14 +265,16 @@ margin-bottom: 30px;
 	font-size: 12px;
 }
 .logo-footer{
-border: 5px solid #ffffff;
-    border-radius: 4px;
+/*border: 5px solid #ffffff;
+    border-radius: 4px;*/
     margin-top: 12px;
-    background: #ffffff;
+    /*background: #ffffff;*/
     padding: 20PX 5PX;
 }
 .logo-footer img{
   width: 100%;
+  border: 5px solid #ffffff;
+    border-radius: 4px;
 }
 
 .footer .footer-telemail{

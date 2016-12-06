@@ -16,3 +16,7 @@ body{
 .page-body{
 padding-left: 15px;
 }
+
+.slide-product-tech{
+	position: static;
+}
