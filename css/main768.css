@@ -20,3 +20,10 @@ padding-left: 15px;
 .slide-product-tech{
 	position: static;
 }
+.page h1.section-topic{
+	font-size: 5vw;
+}
+.reference-img img{
+	width: 100%;
+	margin:2% auto;
+}

@@ -38,5 +38,14 @@ $('#mobile-menu').slicknav({
     closeOnClick: true
 });
 
+$("a#showmaps").click( function(event){
+  event.preventDefault();
+  if( $(".googlemaps").is(":visible") ){
+    $(".googlemaps").hide();             
+  }else{
+    $(".googlemaps").show();
+  }
+});
+
 });
 

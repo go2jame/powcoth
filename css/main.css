@@ -153,7 +153,7 @@ padding-right: 10px;
 	margin-top: 30px;
 }
 .section-topic{
-font-size: 30px !important;
+font-size: 30px ;
 margin-bottom: 30px;
 }
 .hover-border{
@@ -216,6 +216,10 @@ margin-bottom: 30px;
 }
 .googlemaps{
 	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
 }
 
 .product-tech{
@@ -290,6 +294,8 @@ margin-bottom: 30px;
 }
 
 /* PAGE */
+.page{ min-height: 700px; }
+.page h1{ line-height: 1.6; }
 .page h2{
 	padding-top: 55px;
 }
@@ -332,3 +338,10 @@ margin-bottom: 30px;
 	font-size: 14px;
 }
 .sidebar-sub-menu li{ padding: 2px; }
+
+/* Reference */
+.reference-img{ text-align: center; }
+.reference-img img{
+	width: 20%;
+	margin:2%;
+}
